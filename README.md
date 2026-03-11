@@ -217,6 +217,8 @@ This page focuses on product-level performance:
 
 ![Product Performance Analysis](images/Product_Performance_Page.png)
 
+---
+
 ![Semantic Model](images/sm_retail_sales.png)
 
 ---
