@@ -77,8 +77,6 @@ Warehouse star schema for analytics:
 - `sm_retail_sales` semantic model
 - Power BI report with 3 dashboard pages
 
-![Semantic Model](images/sm_retail_sales.png)
-
 ---
 
 ## Data Pipeline
