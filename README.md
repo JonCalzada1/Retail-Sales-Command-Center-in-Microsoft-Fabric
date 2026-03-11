@@ -77,6 +77,8 @@ Warehouse star schema for analytics:
 - `sm_retail_sales` semantic model
 - Power BI report with 3 dashboard pages
 
+![Semantic Model](images/sm_retail_sales.png)
+
 ---
 
 ## Data Pipeline
@@ -121,6 +123,8 @@ A semantic model was built on top of the Gold warehouse tables. Relationships we
 - `fact_sales[CustomerKey] -> dim_customer[CustomerKey]`
 - `fact_sales[ProductKey] -> dim_product[ProductKey]`
 - `fact_sales[DateKey] -> dim_date[DateKey]`
+
+![Semantic Model](images/sm_retail_sales.png)
 
 DAX measures were then added for KPIs and dashboard reporting.
 
@@ -192,6 +196,8 @@ This page provides a high-level business summary with:
 - Sales by Country
 - Top 10 Products by Sales
 
+![Executive Overview](images/Executive_Overview.png)
+
 ### 2. Customer & Geography Analysis
 This page focuses on customer concentration and geographic performance:
 - Customer Sales Detail table
@@ -200,6 +206,8 @@ This page focuses on customer concentration and geographic performance:
 - Top 10 Customers by Sales
 - Country and Year slicers
 
+  ![Customer & Geography Analysis](images/Customer_and_Geography_Page.png)
+
 ### 3. Product Performance Analysis
 This page focuses on product-level performance:
 - Product Detail Table
@@ -207,6 +215,7 @@ This page focuses on product-level performance:
 - Top 10 Products by Units
 - Country and Year slicers
 
+![Product Performance Analysis](images/Product_Performance_Page.png)
 ---
 
 ## Key Insights
