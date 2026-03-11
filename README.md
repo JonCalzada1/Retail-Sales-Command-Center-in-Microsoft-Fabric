@@ -7,6 +7,10 @@ The project uses the **UCI Online Retail dataset**, a real-world transactional d
 
 ---
 
+![Executive Overview](images/Executive_Overview.png)
+
+---
+
 ## Business Problem
 Retail businesses need a centralized analytics platform to monitor sales performance, customer activity, and product demand. Raw transaction data is often not structured for direct reporting, so analysts must transform it into a reliable, business-ready model.
 
@@ -122,8 +126,6 @@ A semantic model was built on top of the Gold warehouse tables. Relationships we
 - `fact_sales[ProductKey] -> dim_product[ProductKey]`
 - `fact_sales[DateKey] -> dim_date[DateKey]`
 
-![Semantic Model](images/sm_retail_sales.png)
-
 DAX measures were then added for KPIs and dashboard reporting.
 
 ---
@@ -214,6 +216,9 @@ This page focuses on product-level performance:
 - Country and Year slicers
 
 ![Product Performance Analysis](images/Product_Performance_Page.png)
+
+![Semantic Model](images/sm_retail_sales.png)
+
 ---
 
 ## Key Insights
